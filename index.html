@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>LosAngelous</title>
+<meta name="description" content="LosAngelous · 个人服务控制台">
+<meta name="color-scheme" content="dark light">
+<meta property="og:title" content="LosAngelous">
+<meta property="og:description" content="个人服务控制台">
+<link rel="icon" type="image/png" sizes="64x64" href="/favicon-64.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+<link rel="stylesheet" href="/assets/app.css?v=20261114b">
+<link rel="modulepreload" href="/assets/app.js?v=20261114b">
+<link rel="preload" href="/assets/vue.esm-browser.prod.js" as="script" crossorigin>
+</head>
+<body>
+  <div id="app">
+    <!-- Vue 挂载前的骨架；挂载后会整块被替换 -->
+    <header class="wrap">
+      <h1>LosAngelous</h1>
+      <p class="kicker"><span>portal</span><span class="sep">/</span><span>6 services</span></p>
+    </header>
+    <main class="wrap">
+      <div class="grid skeleton">
+        <a class="card"><span class="top"><span class="bar mark"></span></span><span class="bar name"></span><span class="bar desc"></span></a>
+        <a class="card"><span class="top"><span class="bar mark"></span></span><span class="bar name"></span><span class="bar desc"></span></a>
+        <a class="card"><span class="top"><span class="bar mark"></span></span><span class="bar name"></span><span class="bar desc"></span></a>
+        <a class="card"><span class="top"><span class="bar mark"></span></span><span class="bar name"></span><span class="bar desc"></span></a>
+        <a class="card"><span class="top"><span class="bar mark"></span></span><span class="bar name"></span><span class="bar desc"></span></a>
+        <a class="card"><span class="top"><span class="bar mark"></span></span><span class="bar name"></span><span class="bar desc"></span></a>
+      </div>
+    </main>
+  </div>
+
+  <noscript>
+    <main class="wrap" style="padding-top:40px">
+      <p style="color:#8d92a0;font-size:13px">需要启用 JavaScript 才能显示状态。直接访问：</p>
+      <ul style="line-height:2;font-size:14px">
+        <li><a href="https://theseus.los-theseus.site/">Theseus :8080</a></li>
+        <li><a href="https://forus.los-theseus.site/">Forus :8081</a></li>
+        <li><a href="https://losnote.los-theseus.site/">LosNote :8787</a></li>
+        <li><a href="https://vesta.los-theseus.site/">大学现状自评 :8082</a></li>
+        <li><a href="https://pool.los-theseus.site/">LosPool :8790</a></li>
+        <li><a href="/zywiki/">大学实用就业指南</a></li>
+      </ul>
+    </main>
+  </noscript>
+
+  <script type="module" src="/assets/app.js?v=20261114b"></script>
+</body>
+</html>
