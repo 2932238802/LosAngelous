@@ -49,15 +49,6 @@ const SERVICES = [
     tag: 'pool',
     port: 8790,
     probe: '/healthz'
-  },
-  {
-    id: 'zywiki',
-    mark: 'ZY',
-    name: '大学实用就业指南',
-    desc: '就业信息差 wiki',
-    href: '/zywiki/',
-    tag: '/zywiki',
-    port: null
   }
 ]
 
